@@ -1,10 +1,11 @@
 version: 0.2
 env:
   variables:
-    AWS_DEFAULT_REGION: "ap-northeast-2"
-    ECR_URL: "657976307134.dkr.ecr.ap-northeast-2.amazonaws.com"
-    ECR_DOCKER_IMAGE: "demo"
+    AWS_DEFAULT_REGION: "ap-northeast-1"
+    ECR_URL: "737765943880.dkr.ecr.ap-northeast-1.amazonaws.com"
+    ECR_DOCKER_IMAGE: "demon"
     ECR_DOCKER_TAG: "1.0.0"
+
 
 phases:
   pre_build:
